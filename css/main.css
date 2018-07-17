@@ -1,0 +1,96 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  background-image: url("../../images/pineapple-supply-co-81438-unsplash.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero_img {
+  width: 100%;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.titulo_content {
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.parrafo {
+  font-size: 40px;
+}
+
+.cabecera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cabecera_logo {
+ /* height: 150px; */;
+}
+
+.lista {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+li {
+  margin: 20px;
+}
+
+.soy {
+  text-align: center;
+  margin: 0 200px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.footer_img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */
