@@ -2,9 +2,10 @@
 
 body{ 
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 .hero{
-    background-image: url("../../images/pineapple-supply-co-81438-unsplash.jpg");
+    background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
     width: 100%;
     height: 500px;
     background-size: cover;
@@ -25,8 +26,17 @@ body{
 h1{
     font-size: 50px;
 }
+.titulo_text{
+    font-family: 'Aclonica', sans-serif;
+    color: #0a0613c7;
+}
 .parrafo{
-    font-size: 40px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    color: #0a0613c7;
+}
+.parrafo_text{
+    color:#0a0613;
 }
 .cabecera{
     display: flex;
