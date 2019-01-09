@@ -1,75 +1,98 @@
-@import 'core/settings';
+@import "core/settings";
 
-body{ 
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 0;
+  margin-left: 0;
 }
-.hero{
-    background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
+.hero {
+  background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
 }
-.hero_img{
-    width: 100%;
+.hero_img {
+  width: 100%;
 }
-.titulo{
-    display: flex;
-    flex-direction: column;
+.titulo {
+  display: flex;
+  flex-direction: column;
 }
-.titulo_content{
-    background-color: #fff;
-    background: rgba(255, 255, 255, 0.68);
+.titulo_content {
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.68);
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.titulo_text{
-    font-family: 'Aclonica', sans-serif;
-    color: #0a0613c7;
+.titulo_text {
+  font-family: "Aclonica", sans-serif;
+  color: #0a0613c7;
 }
-.parrafo{
-    font-family: 'Aclonica', sans-serif;
-    font-size: 30px;
-    color: #0a0613c7;
+.parrafo {
+  font-family: "Aclonica", sans-serif;
+  font-size: 30px;
+  color: #0a0613c7;
 }
-.parrafo_text{
-    color:#0a0613;
+.parrafo_text {
+  color: #0a0613;
+  float: right;
+  width: 500px;
 }
-.cabecera{
-    display: flex;
+.cabecera {
+  display: flex;
 }
-.cabecera_logo{
-    /* height: 150px; */
+.cabecera_logo {
+  height: 129px;
+  margin-left: 30px;
+  margin-bottom: 13px;
+  &:hover{
+    transform: rotateY(360deg);
+    transition: all .7s ease-in-out;
+    }
 }
-.lista{
-    display: inline-block;
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    justify-content: flex-end;
-    width: 100%;
-    align-items: center;
-    
+.mision {
+  color: #0a0613;
+  text-align: center;
+  width: 500px;
 }
-li{
-    margin: 20px;
+.lista {
+  display: inline-block;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
 }
-.soy{
-    text-align: center;
-    margin: 0 200px;  
+li {
+  margin: 20px;
+}
+.description {
+  text-align: center;
+  margin: 0 200px;
+}
+.soy {
+  margin: 50px 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+.container_soy {
+  margin-top: 100px;
 }
-img{
-    max-width: 100%;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
-.footer_img{
-    width: 100px;
+img {
+  max-width: 100%;
+  float: left;
+}
+.footer_img {
+  width: 100px;
 }

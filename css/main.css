@@ -1,6 +1,7 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .hero {
@@ -38,18 +39,20 @@ h1 {
 }
 
 .titulo_text {
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
   color: #0a0613c7;
 }
 
 .parrafo {
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
   font-size: 30px;
   color: #0a0613c7;
 }
 
 .parrafo_text {
   color: #0a0613;
+  float: right;
+  width: 500px;
 }
 
 .cabecera {
@@ -59,7 +62,22 @@ h1 {
 }
 
 .cabecera_logo {
- /* height: 150px; */;
+  height: 129px;
+  margin-left: 30px;
+  margin-bottom: 13px;
+}
+
+.cabecera_logo:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.mision {
+  color: #0a0613;
+  text-align: center;
+  width: 500px;
 }
 
 .lista {
@@ -82,9 +100,23 @@ li {
   margin: 20px;
 }
 
-.soy {
+.description {
   text-align: center;
   margin: 0 200px;
+}
+
+.soy {
+  margin: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container_soy {
+  margin-top: 100px;
 }
 
 .footer {
@@ -99,6 +131,7 @@ li {
 
 img {
   max-width: 100%;
+  float: left;
 }
 
 .footer_img {
