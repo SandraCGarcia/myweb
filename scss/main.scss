@@ -75,22 +75,27 @@ li {
   justify-content: space-between;
 }
 
-.soy_image{
+.image_hover{
     &:hover{
-        transition: all 0.7s ease-in-out;
-        filter: opacity(.5);
-        // overflow:hidden;
+        transition: all 0.3s linear;
+        filter: opacity(.5) grayscale(100%);
         
     }
 }
-.container_soy-text {
-  margin-top: 100px;
+
+.container_soy-text{
+    margin-top: 10px;
+}
+
+.soy_image{
+    width: 50%;
+    height: 50%;
 }
 
 .parrafo_text {
   color: #0a0613;
   float: right;
-  width: 500px;
+  width: 600px;
 }
 
 .container_descripcion {
@@ -102,8 +107,16 @@ li {
 
 .descripcion_titulo {
   color: #0a0613;
-  text-align: center;
-  width: 500px;
+  width: 600px;
+}
+
+.icon_container{
+  display: flex;  
+}
+.icon-block{
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
 }
 
 .footer {
