@@ -5,60 +5,26 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
-.hero {
-  background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
-  width: 100%;
-  height: 500px;
-  background-size: cover;
-  text-align: center;
-  justify-content: center;
-}
-.hero_img {
-  width: 100%;
-}
-.titulo {
-  display: flex;
-  flex-direction: column;
-}
-.titulo_content {
-  background-color: #fff;
-  background: rgba(255, 255, 255, 0.68);
-}
+
 h1 {
   font-size: 50px;
 }
-.titulo_text {
-  font-family: "Aclonica", sans-serif;
-  color: #0a0613c7;
-}
-.parrafo {
-  font-family: "Aclonica", sans-serif;
-  font-size: 30px;
-  color: #0a0613c7;
-}
-.parrafo_text {
-  color: #0a0613;
-  float: right;
-  width: 500px;
-}
+
 .cabecera {
   display: flex;
 }
+
 .cabecera_logo {
   height: 129px;
   margin-left: 30px;
   margin-bottom: 13px;
-  &:hover{
+  &:hover {
     transform: rotateY(360deg);
-    transition: all .7s ease-in-out;
-    }
+    transition: all 0.7s ease-in-out;
+  }
 }
-.mision {
-  color: #0a0613;
-  text-align: center;
-  width: 500px;
-}
-.lista {
+
+.menu_lista {
   display: inline-block;
   display: flex;
   text-decoration: none;
@@ -67,21 +33,77 @@ h1 {
   width: 100%;
   align-items: center;
 }
+
 li {
   margin: 20px;
 }
-.description {
+
+.hero {
+  background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
   text-align: center;
-  margin: 0 200px;
+  justify-content: center;
 }
-.soy {
+// .hero_img {
+//   width: 100%;
+// }
+.titulo {
+  display: flex;
+  flex-direction: column;
+}
+.titulo_content {
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.titulo_text {
+  font-family: "Aclonica", sans-serif;
+  color: #0a0613c7;
+}
+
+.titulo_parrafo {
+  font-family: "Aclonica", sans-serif;
+  font-size: 30px;
+  color: #0a0613c7;
+}
+
+.container_soy {
   margin: 50px 100px;
   display: flex;
   justify-content: space-between;
 }
 
-.container_soy {
+.soy_image{
+    &:hover{
+        transition: all 0.7s ease-in-out;
+        filter: opacity(.5);
+        // overflow:hidden;
+        
+    }
+}
+.container_soy-text {
   margin-top: 100px;
+}
+
+.parrafo_text {
+  color: #0a0613;
+  float: right;
+  width: 500px;
+}
+
+.container_descripcion {
+  margin: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.descripcion_titulo {
+  color: #0a0613;
+  text-align: center;
+  width: 500px;
 }
 
 .footer {
@@ -89,10 +111,7 @@ li {
   justify-content: space-between;
   margin-top: 50px;
 }
-img {
-  max-width: 100%;
-  float: left;
-}
+
 .footer_img {
   width: 100px;
 }

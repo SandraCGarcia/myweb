@@ -4,55 +4,8 @@ body {
   margin-left: 0;
 }
 
-.hero {
-  background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
-  width: 100%;
-  height: 500px;
-  background-size: cover;
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.hero_img {
-  width: 100%;
-}
-
-.titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.titulo_content {
-  background-color: #fff;
-  background: rgba(255, 255, 255, 0.68);
-}
-
 h1 {
   font-size: 50px;
-}
-
-.titulo_text {
-  font-family: "Aclonica", sans-serif;
-  color: #0a0613c7;
-}
-
-.parrafo {
-  font-family: "Aclonica", sans-serif;
-  font-size: 30px;
-  color: #0a0613c7;
-}
-
-.parrafo_text {
-  color: #0a0613;
-  float: right;
-  width: 500px;
 }
 
 .cabecera {
@@ -70,17 +23,11 @@ h1 {
 .cabecera_logo:hover {
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360deg);
-  -webkit-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
-.mision {
-  color: #0a0613;
-  text-align: center;
-  width: 500px;
-}
-
-.lista {
+.menu_lista {
   display: inline-block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,12 +47,44 @@ li {
   margin: 20px;
 }
 
-.description {
+.hero {
+  background-image: url("../../images/anas-alshanti-169265-unsplash.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
   text-align: center;
-  margin: 0 200px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.soy {
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.titulo_content {
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.titulo_text {
+  font-family: "Aclonica", sans-serif;
+  color: #0a0613c7;
+}
+
+.titulo_parrafo {
+  font-family: "Aclonica", sans-serif;
+  font-size: 30px;
+  color: #0a0613c7;
+}
+
+.container_soy {
   margin: 50px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,8 +94,41 @@ li {
   justify-content: space-between;
 }
 
-.container_soy {
+.soy_image:hover {
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  -webkit-filter: opacity(0.5);
+  filter: opacity(0.5);
+}
+
+.container_soy-text {
   margin-top: 100px;
+}
+
+.parrafo_text {
+  color: #0a0613;
+  float: right;
+  width: 500px;
+}
+
+.container_descripcion {
+  margin: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.descripcion_titulo {
+  color: #0a0613;
+  text-align: center;
+  width: 500px;
 }
 
 .footer {
@@ -127,11 +139,6 @@ li {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 50px;
-}
-
-img {
-  max-width: 100%;
-  float: left;
 }
 
 .footer_img {
