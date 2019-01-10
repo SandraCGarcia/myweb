@@ -157,7 +157,6 @@ input#rgb.color-field {
 }/* ---------------
    # Topbar
 --------------- */.navbar {
-  margin: 0 auto;
   height: 275px;
   background: transparent;
   color: #fff;
