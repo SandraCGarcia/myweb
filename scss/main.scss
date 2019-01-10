@@ -149,3 +149,71 @@ li {
 .footer_img {
   width: 100px;
 }
+
+.grafico {
+  height: 200px;
+  margin: 6rem auto;
+  position: relative;
+  width: 200px;
+  background-color: greenyellow;
+  border-radius:50%;
+  #hueco{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    background-color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin: -75px 0 0 -75px;
+    z-index:100;
+    div{
+      text-align: center;
+      text-transform:uppercase;
+      &.parag1{
+        font-size:20px;
+        margin-top:45px;
+      }
+      &.parag2{
+        opacity:0.5;
+        font-size:20px;
+      }
+    }
+  }
+  .recorte {
+    border-radius: 50%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    .quesito {
+      border-radius: 50%;
+      clip: rect(0px, 200px, 100px, 100px);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color:#58BFD1;
+      transform: rotate(0deg);
+    }
+  }
+  #porcion1{
+    z-index:3;
+  }
+  #porcion2{
+    z-index:2;
+    background-color:transparent;
+    transform: rotate(-55deg);
+    .quesito{
+      background-color: #FCB150;
+      clip: rect(0px, 200px, 100px, 100px);
+    }
+  }
+  #porcion3{
+    z-index:1;
+    /*background-color:green;*/
+    .quesito{
+      clip: rect(0px,100px,200px,0px);
+      background-color: #11A8AB;
+      transform: rotate(-150deg);
+    }
+  }
+}
