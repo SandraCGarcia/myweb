@@ -1,8 +1,3 @@
-![Adalab](images/logo-adalab-80px.png)
-# Adalab web starter kit
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS y un web server.
-
 ## Guía de inicio rápido
 Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:  
 1. Descarga o clona el repositorio
