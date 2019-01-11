@@ -119,6 +119,21 @@ li {
   height: 50%;
 }
 
+.skills{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 30px;
+}
+
+.container_skill-icon{
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skill-icon{
+  width: 90px;
+}
 .social-titulo {
   color: #14d9c4;
   text-align: center;
