@@ -6,10 +6,6 @@ body {
   margin-left: 0;
 }
 
-// h1 {
-//   font-size: 50px;
-// }
-
 .cabecera {
   display: flex;
   justify-content: space-between;
@@ -48,9 +44,7 @@ li {
   text-align: center;
   justify-content: center;
 }
-// .hero_img {
-//   width: 100%;
-// }
+
 .titulo {
   display: flex;
   flex-direction: column;
@@ -101,6 +95,7 @@ li {
     float: right;
   }
 }
+
 .parrafo_text {
   color: #1c1136;
   float: right;
@@ -144,6 +139,7 @@ li {
   justify-content: center;
   align-items: center;
 }
+
 .icon-block {
   text-decoration: none;
   color: #1c1136;

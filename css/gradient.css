@@ -15,8 +15,6 @@
 .colors #colorError {
   display: none;
 }/* ---------------
-   # Form
---------------- *//* ---------------
    # Overlay Menu
 --------------- */.hamburger {
   z-index: 1;
@@ -89,8 +87,6 @@
   animation: Gradient 15s ease infinite;
   border-bottom: 1px solid white;
 }/* ---------------
-   # Sticky
---------------- *//* ---------------
    # Topbar
 --------------- */.navbar {
   height: 275px;
@@ -172,6 +168,17 @@ span.brand-small {
 body {
   margin: 0;
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 498px) {
+  .navbar {
+    height: 170px !important;
+  }
+
+  span.brand-small {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+  }
 }
 
 @media screen and (max-height: 450px) {

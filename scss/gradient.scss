@@ -19,22 +19,6 @@
   }
 
 /* ---------------
-   # Form
---------------- */
-
-// input#hex.color-field {
-// 	font-size: 20px; 
-// 	letter-spacing: 1px;
-//   font-weight: 800;
-//   }
-
-// input#rgb.color-field {	
-// 	font-size: 20px; 
-// 	letter-spacing: 1.5px;
-//   font-weight: 800;
-//   }
-
-/* ---------------
    # Overlay Menu
 --------------- */
 
@@ -165,19 +149,6 @@
   }
 
 /* ---------------
-   # Sticky
---------------- */
-
-//  .sticky.is-sticky {
-//   position: fixed;
-//   left: 0;
-//   right: 0;
-//   top: 0;
-//   z-index: 1000;
-//   width: 100%;
-//   }
-
-/* ---------------
    # Topbar
 --------------- */
 
@@ -203,15 +174,15 @@
     align-items: center;
   }
 
-// @media screen and (max-width: 498px) {
-// 	.navbar {
-// 		height: 170px !important;
-// 	  }
-// 	span.brand-small {
-// 		font-size: 12px !important;
-//         letter-spacing: 1px;
-// 	  }
-//   }
+@media screen and (max-width: 498px) {
+	.navbar {
+		height: 170px !important;
+	  }
+	span.brand-small {
+		font-size: 12px !important;
+        letter-spacing: 1px;
+	  }
+  }
 
 a.bsa {
 	font-weight: 900; 
@@ -221,10 +192,6 @@ a.bsa {
 span.brand-small {
     font-size: 20px;
   }
-// a.brand-small {
-// 	font-weight: 900; 
-//     border-bottom: 1px dotted #fff;
-//   }
 
 .navbar-brand a {
   color: #fff !important;
@@ -251,177 +218,7 @@ span.brand-small {
 .navbar-brand i {
 	padding-right: 10px;
   }
- 
-// .container h1 {
-// 	text-align: center;
-//   font-family: 'Open Sans';
-// 	font-size: 44px;
-// 	margin-bottom: 30px; 
-// 	font-weight: bold;
-// 	text-transform: uppercase;
-// 	color: grey;
-//   }
 
-// .imprint h2 {
-// 	text-align: left;
-//   font-family: "Open Sans",sans-serif;
-// 	color: #666;
-// 	font-size: 20px;
-//   }
-
-// .imprint {
-// 	margin-top: 60px;
-//   }
-
-// .wrapper {
-// 	width: 100%;
-// 	margin: 0 0 50px 0;
-// 	position: relative; 
-// 	display: block;
-//   }
-
-// .wrapper .color-field, .color-field {
-// 	border: none;
-// 	border-bottom: 1px solid #fa7676;
-// 	outline: none;
-// 	height: 40px;
-// 	font-size: 22px;
-// 	padding: 0 10px;
-// 	width: 100%;
-// 	margin-right: 10px;
-// 	color: #666; 
-//   }
-	
-// .field-bg {
-// 	background: rgba(255,255,255,0.5);
-// 	width: 70%;
-//   }
-
-// .color-field {
-// 	border: none;
-// 	border-bottom: 1px solid #fa7676;
-// 	outline: none;
-// 	height: 40px;
-// 	font-size: 18px;
-// 	padding: 0 10px;
-// 	width: 100%;
-// 	margin-right: 10px;
-//   color: #666;
-//   background-image: linear-gradient(-45deg, #EE786E 50%, #FCEEB5 55%, #A2CCB6 60%);
-//   background-size: 300% 100%;
-//   animation: txtani 10s ease infinite;
-//   -webkit-animation: txtani 10s ease infinite;
-// 	-moz-animation: txtani 10s ease infinite;
-//   -webkit-text-fill-color: transparent;
-//   -webkit-background-clip: text;
-//   }
-
-// @keyframes txtani { 
-//     0% { 
-//       background-position:0% 0% 
-//       }
-//     30% { 
-//       background-position:0% 0% 
-//       }
-//     50% { 
-//       background-position:99% 0% 
-//       }
-//     70% { 
-//       background-position:0% 0% 
-//       }
-//     100% { 
-//       background-position:0% 0% 
-//       }
-//   }
-
-// @-webkit-keyframes txtani { 
-//     0% { 
-//       background-position:0% 0% 
-//       }
-//     30% { 
-//       background-position:0% 0% 
-//       }
-//     50% { 
-//       background-position:99% 0% 
-//       }
-//     70% { 
-//       background-position:0% 0% 
-//       }
-//     100% { 
-//       background-position:0% 0% 
-//       }
-//   } 
-
-// @-moz-keyframes txtani { 
-//     0% { 
-//       background-position:0% 0% 
-//       }
-//     30% { 
-//       background-position:0% 0% 
-//       }
-//     50% { 
-//       background-position:99% 0% 
-//       }
-//     70% { 
-//       background-position:0% 0% 
-//       }
-//     100% { 
-//       background-position:0% 0% 
-//       }
-//   }
-
-// .colors .color-field {
-// 	border: none;
-// 	border-bottom: 1px solid #fa7676;
-// 	outline: none;
-// 	height: 40px;
-// 	font-size: 24px;
-// 	padding: 0 10px;
-// 	width: 70%;
-// 	margin-right: 10px;
-// 	color: #666; 
-// 	background: transparent;
-//   }
-
-// .container .wrapper .button {
-// 	border: none;
-// 	background: #A2CCB6;
-// 	color: #fff;
-// 	text-transform: uppercase;
-// 	height: 40px;
-// 	width: 60px;
-// 	outline: none;
-// 	font-size: 25px;
-// 	position: absolute;
-// 	top: 0px;
-// 	right: 0;
-// 	border: 0px solid #fff;
-//   box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.55);
-//   -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.55);
-//   -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.55);
-//   }
-
-// .container .wrapper .button:hover {
-// 	background-color: #EE786E; 
-//   }
-
-// .container .wrapper .button:active {
-// 	background-color: #f84545; 
-//   }
-
-// .container .wrapper .button:disabled {
-// 	background-color: #ccc; 
-//   }
-
-// .container .wrapper p a {
-// 	text-decoration: none;
-// 	color: #fa7676; 
-//   }
-
-// .container .wrapper p a:hover {
-// 	border-bottom: 1px dashed #fa7676; 
-//   }
- 
  /* ---------------
    # Normalize https://necolas.github.io/normalize.css/
 --------------- */
